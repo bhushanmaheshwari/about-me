@@ -38,7 +38,7 @@ export default function StitchDesign({ data }) {
 
   return (
     <div className="min-h-screen bg-white font-sans">
-      <Navbar data={data.navbar} />
+      <Navbar data={data.navbar} heroData={data.hero} />
       <main className="flex flex-col">
         {/* Section 1: Hero and Core Competencies */}
         <section className="bg-gradient-to-b from-white to-gray-50">

@@ -53,60 +53,53 @@
   },
   "coreCompetencies": [
     {
-      "icon": "/Vector-0.svg",
-      "label": "User Research",
-      "description": "Expert in conducting user interviews, surveys, and usability studies to gather actionable insights",
+      "icon": "/icons/competencies/product-strategy.svg",
+      "label": "Product Strategy & Agile Leadership",
+      "description": "Expert in defining vision, roadmaps, and technical backlogs, ensuring seamless execution of business-driven solutions through Agile and SAFe® methodologies.",
       "proficiency": 95,
       "color": "#47579E"
     },
     {
-      "icon": "/Vector-1.svg",
-      "label": "Wireframing",
-      "description": "Skilled in creating low and high-fidelity wireframes using industry-standard tools",
+      "icon": "/icons/competencies/ai-ml.svg",
+      "label": "Artificial Intelligence & Machine Learning",
+      "description": "Specialize in Generative AI, Conversational AI, NLP, RAG pipelines, and LLMs (OpenAI, Google Gemini) to enable AI-powered automation, personalization, and business transformation.",
       "proficiency": 90,
       "color": "#47579E"
     },
     {
-      "icon": "/Vector-2.svg",
-      "label": "Prototyping",
-      "description": "Advanced prototyping skills with interactive elements and user flows",
+      "icon": "/icons/competencies/cloud-devops.svg",
+      "label": "Cloud & DevOps",
+      "description": "Strong foundation in Azure cloud platforms, Databricks, MLOps, Infrastructure as Code (IaC), and CI/CD pipelines, ensuring scalable and secure deployments.",
       "proficiency": 92,
       "color": "#47579E"
     },
     {
-      "icon": "/Vector-3.svg",
-      "label": "Usability Testing",
-      "description": "Experienced in planning and conducting comprehensive usability tests",
-      "proficiency": 20,
-      "color": "#CFD1E8"
-    },
-    {
-      "icon": "/Vector-3.svg",
-      "label": "AI Testing",
-      "description": "Specialized in testing AI-powered features and machine learning models",
-      "proficiency": 30,
-      "color": "#CFD1E8"
-    },
-    {
-      "icon": "/Vector-10.svg",
-      "label": "Design Systems",
-      "description": "Expert in creating and maintaining scalable design systems",
-      "proficiency": 87,
+      "icon": "/icons/competencies/data-engineering.svg",
+      "label": "Data Engineering",
+      "description": "Design and implement robust pipelines for structured, unstructured, and geospatial data using Azure Databricks, Data Lake, and orchestration tools.",
+      "proficiency": 88,
       "color": "#47579E"
     },
     {
-      "icon": "/Vector-5.svg",
-      "label": "Agile/SAFe",
-      "description": "Certified in Agile methodologies and SAFe framework implementation",
-      "proficiency": 100,
+      "icon": "/icons/competencies/technical-leadership.svg",
+      "label": "Technical Leadership & Communication",
+      "description": "Skilled at bridging the gap between business and technology, effectively articulating strategies to executives, engineers, and product teams, and a focus on long-term value.",
+      "proficiency": 95,
       "color": "#47579E"
     },
     {
-      "icon": "/Vector-6.svg",
-      "label": "UI Design",
-      "description": "Strong visual design skills with focus on accessibility and user experience",
-      "proficiency": 70,
-      "color": "#617AFA"
+      "icon": "/icons/competencies/system-architecture.svg",
+      "label": "System Architecture & Emerging Tech",
+      "description": "Design microservices-based and event-driven systems; explore Blockchain, IoT, Spatial & Quantum Computing.",
+      "proficiency": 85,
+      "color": "#47579E"
+    },
+    {
+      "icon": "/icons/competencies/prototyping.svg",
+      "label": "Prototyping & Development",
+      "description": "Skilled in Python (Pandas, NumPy, LangChain), Angular, React, Django, and Flask for building AI prototypes and scalable applications.",
+      "proficiency": 90,
+      "color": "#47579E"
     }
   ],
   "featuredProjects": [
@@ -175,58 +168,94 @@
   ],
   "experience": [
     {
-      "title": "Senior Software Engineer",
-      "location": "SFO, CA",
-      "year": "2022",
-      "skills": ["React", "Node.js", "AWS", "Microservices", "CI/CD"],
+      "title": "Lead Architect, AI/Automation, Country Engagement",
+      "company": "The World Bank Group",
+      "location": "Washington DC, USA",
+      "year": "2023",
+      "skills": ["Generative AI", "Azure", "Angular", "Python", "Data Engineering"],
       "description": [
-        "Led development of cloud-native applications using <b>React</b>, <b>Node.js</b>, and <b>AWS</b>",
-        "Implemented <b>microservices architecture</b> and <b>CI/CD pipelines</b>",
-        "Mentored junior developers and conducted <b>code reviews</b>"
+        "Led AI solutions development, reducing content review time by 40% through automated document analysis and generation.",
+        "Architected risk/issues dashboard using Google Maps, Azure Data Lake, and OpenAI for enhanced global decision-making.",
+        "Built scalable event-driven platform with Azure Data Bricks and Service Bus, enabling automated document generation and data-driven insights.",
+        "Created collaborative workspace integrating analytics, geospatial tools, and AI-driven content, boosting team productivity by 30%."
       ],
-      "icon": "/Vector-5.svg"
+      "icon": "/icons/experience/work.svg"
     },
     {
-      "title": "Software Engineer",
-      "location": "Seattle, WA",
+      "title": "Solutions Architect, Knowledge Solutions",
+      "company": "The World Bank Group",
+      "location": "Washington DC, USA",
       "year": "2020",
-      "skills": ["React", "TypeScript", "Node.js", "Testing", "DevOps"],
+      "skills": ["Angular", "Azure", "SharePoint", "Power BI", "ReactJS"],
       "description": [
-        "Developed and maintained full-stack applications using <b>React</b>, <b>TypeScript</b>, and <b>Node.js</b>",
-        "Collaborated with cross-functional teams to deliver <b>features and improvements</b>",
-        "Implemented automated <b>testing and deployment processes</b>"
+        "Designed and implemented an intranet platform with Angular, Azure Search, and Power BI, improving transparency and reducing information retrieval time by 25%.",
+        "Partnered with HR to build a global mobility solution using SharePoint and Azure Cloud, streamlining workflows and cutting processing time by 20%.",
+        "Delivered an integrated project management tool with Angular and Azure, enhancing visibility and collaboration across operational teams.",
+        "Built a photo catalog app in MS Teams using ReactJS and Azure Cognitive Services, enabling dynamic search and improving field data accessibility."
       ],
-      "icon": "/Vector-6.svg"
+      "icon": "/icons/experience/work.svg"
     },
     {
-      "title": "Full Stack Developer",
-      "location": "New York, NY",
-      "year": "2018",
-      "skills": ["React", "Node.js", "Database", "API", "Agile"],
+      "title": "Senior Software Engineer, Data Science Digital Platforms",
+      "company": "The World Bank Group",
+      "location": "Washington DC, USA",
+      "year": "2019",
+      "skills": ["Angular", "TypeScript", "CMS", "Core Framework"],
       "description": [
-        "Built responsive web applications using <b>React and Node.js</b>",
-        "Worked on <b>database optimization</b> and <b>API development</b>",
-        "Participated in <b>agile development processes</b> and <b>sprint planning</b>"
+        "Architected a site builder tool using Angular and TypeScript to manage web and mobile app preferences built on the Core Framework.",
+        "Designed a configuration-based CMS to automate org-level data entry, enabling dynamic sites, lists, and planned dashboards."
       ],
-      "icon": "/Vector-8.svg"
+      "icon": "/icons/experience/work.svg"
     },
     {
-      "title": "Frontend Developer",
-      "location": "Boston, MA",
-      "year": "2017",
-      "skills": ["React", "Redux", "UI/UX", "Accessibility", "Design Systems"],
+      "title": "Technical Lead",
+      "company": "Bank of America",
+      "location": "Jacksonville, Florida, USA",
+      "year": "2015",
+      "skills": ["Angular", "C#", "Web API", "SQL", "Mainframe"],
       "description": [
-        "Created interactive user interfaces using <b>React</b> and <b>Redux</b>",
-        "Implemented <b>responsive designs</b> and <b>accessibility features</b>",
-        "Collaborated with UX designers to improve <b>user experience</b>"
+        "Automated API and Mainframe-based data exchange with financial firms, projecting $10M+ in savings over six years.",
+        "Developed UI and backend using Angular, C#, Web API, EF, and optimized SQL queries, enhancing performance and reliability.",
+        "Collaborated with DTCC, BONY, and internal teams to ensure regulatory compliance & seamless integration.",
+        "Presented progress and solutions to stakeholders, driving alignment and resolving delivery challenges."
+      ],
+      "icon": "/icons/experience/work.svg"
+    },
+    {
+      "title": "System Engineer",
+      "company": "Bank of America",
+      "location": "Mumbai, India",
+      "year": "2012",
+      "skills": [".NET", "MVC", "WCF", "IBM DB2", "SharePoint"],
+      "description": [
+        "Architected migration of a legacy Mainframe app to .NET using MVC, Web Forms, WCF, and IBM DB2.",
+        "Led requirements gathering and standardized project documentation via SharePoint for version control.",
+        "Built caching mechanisms & reusable services to boost performance and handle large Excel data uploads.",
+        "Developed a generic UI component for 30+ controls, enhancing responsiveness and audit logging.",
+        "Automated proxy update workflows, saving ~60 hours weekly and improving operational efficiency."
       ],
       "icon": "/icons/experience/work.svg"
     }
   ],
   "certifications": [
     {
+      "icon": "/Vector-13.svg",
+      "title": "Master in Business Administration",
+      "type": "USA, 2021-2022"
+    },
+    {
+      "icon": "/Vector-13.svg",
+      "title": "Bachelors in Computer Science",
+      "type": "India, 2007-2011"
+    },
+    {
       "icon": "/Vector-9.svg",
       "title": "Microsoft Certified: Azure Solutions Architect Expert",
+      "type": "Cloud Solutions"
+    },
+    {
+      "icon": "/Vector-9.svg",
+      "title": "Microsoft Certified Solutions Associate",
       "type": "Cloud Solutions"
     },
     {
@@ -257,7 +286,7 @@
   ],
   "aboutMe": {
     "desc": "I'm a UX designer with over 5 years of experience in creating user-friendly and visually appealing digital products. My expertise lies in user research, interaction design, and prototyping. I'm passionate about understanding user needs and translating them into effective design solutions. I've worked with a variety of clients, from startups to large corporations, and I'm always eager to take on new challenges.",
-    "quote": "Great architecture isn't just scalable. It's thoughtful, ethical, and built for the people who use it. – Bhushan Maheshwari"
+    "quote": "Great architecture isn't just scalable. It's thoughtful, ethical, and built for the people who use it."
   },
   "footer": {
     "copyright": "© 2025 Bhushan Maheshwari · Professional Portfolio"
