@@ -101,7 +101,7 @@ export default function Experience({ data }) {
               </div>
 
               {/* Content */}
-              <div className={`w-full md:w-1/2 ${index % 2 === 0 ? "md:pr-24" : "md:pl-24"} pl-4 md:pl-20`}>
+              <div className={`w-full md:w-[calc(50%-3rem)] ${index % 2 === 0 ? "md:pr-12" : "md:pl-12"} pl-4`}>
                 <div 
                   className={`bg-white border border-gray-200 rounded-xl p-4 md:p-6 shadow-sm transition-all duration-700 ease-out
                     ${activeIndex === index ? 'border-[#607af9] shadow-[0_0_0_2px_#607af9] bg-gray-50 translate-y-[-8px] scale-105' : ''}`}

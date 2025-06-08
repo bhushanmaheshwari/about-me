@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function FeaturedProjects({ data }) {
   const [hoveredProject, setHoveredProject] = useState(null);
-
+  
   return (
     <section id="projects" className="max-w-5xl mx-auto px-4 mb-8">
       <h2 className="font-bold text-xl md:text-2xl mb-4 md:mb-6 animate-fade-in-up">Enterprise Projects</h2>
@@ -20,31 +20,21 @@ export default function FeaturedProjects({ data }) {
                 src={proj.image} 
                 alt={proj.title} 
                 fill
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                className="object-contain bg-white"
                 sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                unoptimized={proj.image.endsWith('.svg')}
               />
               <div className={`absolute inset-0 bg-black/60 transition-opacity duration-300 flex items-center justify-center ${hoveredProject === index ? 'opacity-100' : 'opacity-0'}`}>
                 <div className="text-white text-center p-4 transform translate-y-4 transition-transform duration-300">
-                  <p className="text-sm mb-2">{proj.desc}</p>
-                  <a 
-                    href={proj.link} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-block bg-white text-black px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors"
-                  >
-                    View Project
-                  </a>
+                  <p className="text-sm">{proj.desc}</p>
                 </div>
               </div>
             </div>
             <div className="p-4">
-              <div className="font-semibold text-base md:text-lg mb-1 animate-fade-in-up" style={{ animationDelay: `${index * 100}ms` }}>
+              <div className="font-semibold text-base md:text-lg mb-3 animate-fade-in-up" style={{ animationDelay: `${index * 100}ms` }}>
                 {proj.title}
               </div>
-              <div className="text-gray-500 text-sm md:text-base animate-fade-in-up" style={{ animationDelay: `${index * 100 + 200}ms` }}>
-                {proj.desc}
-              </div>
-              <div className="mt-3 flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2">
                 {proj.technologies?.map((tech, techIndex) => (
                   <span 
                     key={tech} 

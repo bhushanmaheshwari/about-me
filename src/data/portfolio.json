@@ -37,7 +37,7 @@
       {
         "name": "Medium",
         "icon": "/icons/medium.svg",
-        "url": "https://medium.com/@bhushanmaheshwari"
+        "url": "https://medium.com/@bhushan.maheshwari"
       },
       {
         "name": "Instagram",
@@ -104,66 +104,108 @@
   ],
   "featuredProjects": [
     {
-      "image": "/depth-7-frame-0-6.png",
-      "title": "E-commerce Platform Redesign",
-      "desc": "A complete overhaul of an online store, focusing on usability and conversion rates."
+      "image": "/diagrams/Depth-0-1.png",
+      "title": "Issues Explorer",
+      "desc": "Architected a geospatial data visualization solution for risk and issue management using Google Maps, and Leaflet;, Azure Data Lake, and OpenAI, improving data accessibility and decision-making capabilities for global operations.",
+      "technologies": ["Google Maps", "Leaflet", "Azure Data Lake", "OpenAI"]
     },
     {
-      "image": "/depth-7-frame-0-7.png",
-      "title": "Mobile Banking App",
-      "desc": "A mobile banking application designed for ease of use and accessibility."
+      "image": "/diagrams/Depth-0-2.png",
+      "title": "Generative AI Solutions",
+      "desc": "Led the design and implementation of a generative AI solution to automate content creation across WBG documents, enhancing efficiency and consistency in documentation workflows.",
+      "technologies": ["Generative AI", "Azure", "Document Processing"]
     },
     {
-      "image": "/depth-7-frame-0-8.png",
-      "title": "User Research Study",
-      "desc": "A comprehensive study on user behavior and needs in the healthcare industry."
+      "image": "/diagrams/Depth-0-3.png",
+      "title": "Document Review Tool",
+      "desc": "Developed an AI-powered tool using Angular, Azure Data Bricks, and ChatGPT models to analyze and compare document attributes, achieving a 40% reduction in document review times.",
+      "technologies": ["Angular", "Azure Data Bricks", "ChatGPT", "AI"]
     },
     {
-      "image": "/depth-7-frame-0-6.png",
-      "title": "E-commerce Platform Redesign 1",
-      "desc": "A complete overhaul of an online store, focusing on usability and conversion rates."
+      "image": "/diagrams/Depth-0-4.png",
+      "title": "Data Engineering Platform",
+      "desc": "Built a scalable data processing platform on Azure Data Bricks, Service Bus, and Python, supporting document generation and enhancing data-driven decision-making for business teams.",
+      "technologies": ["Azure Data Bricks", "Service Bus", "Python", "Data Engineering"]
     },
     {
-      "image": "/depth-7-frame-0-7.png",
-      "title": "Mobile Banking App 1",
-      "desc": "A mobile banking application designed for ease of use and accessibility."
+      "image": "/diagrams/Depth-0-5.png",
+      "title": "AI @ WBG Portfolio",
+      "desc": "Created a comprehensive AI portfolio website showcasing AI products, frameworks, resources, with features like subscriptions, notifications, and community engagement, fostering cross-team collaboration and knowledge sharing.",
+      "technologies": ["Web Development", "AI", "Community Platform"]
     },
     {
-      "image": "/depth-7-frame-0-8.png",
-      "title": "User Research Study 1",
-      "desc": "A comprehensive study on user behavior and needs in the healthcare industry."
+      "image": "/diagrams/Depth-0-6.png",
+      "title": "Country Workspace",
+      "desc": "Architected a collaborative workspace for Country Management Units, incorporating data analytics, geospatial capabilities, and AI-driven document generation, increasing team productivity by 30%.",
+      "technologies": ["Data Analytics", "Geospatial", "AI", "Collaboration"]
+    },
+    {
+      "image": "/diagrams/Depth-0-7.png",
+      "title": "Intranet Apps",
+      "desc": "Designed and implemented an intranet platform to promote transparency and collaboration using Angular, Azure Search, and Power BI, reducing information retrieval times by 25%.",
+      "technologies": ["Angular", "Azure Search", "Power BI"]
+    },
+    {
+      "image": "/diagrams/Depth-0-8.png",
+      "title": "Global Mobility Portal",
+      "desc": "Partnered with HR to architect a global mobility solution leveraging SharePoint and Azure Cloud, streamlining workflows and cutting processing times by 20%.",
+      "technologies": ["SharePoint", "Azure Cloud", "HR Solutions"]
+    },
+    {
+      "image": "/diagrams/Depth-0-9.png",
+      "title": "Remote Supervision",
+      "desc": "Delivered an integrated project management tool for operational staff using Angular and Azure, enhancing project visibility and collaboration across the organization.",
+      "technologies": ["Angular", "Azure", "Project Management"]
     }
   ],
   "githubPortfolio": [
     {
       "image": "/depth-7-frame-0.png",
-      "title": "Project Alpha",
-      "desc": "A web application for managing tasks."
+      "title": "markdown",
+      "desc": "A markup language implementation for adding formatting to plain text documents with various examples and scenarios.",
+      "githubUrl": "https://github.com/bhushanmaheshwari/markdown"
     },
     {
       "image": "/depth-7-frame-1.png",
-      "title": "Project Beta",
-      "desc": "A mobile app for tracking fitness activities."
+      "title": "computer-vision",
+      "desc": "Work in progress project for image analysis, generating detailed descriptions including tags, object detection, and face detection.",
+      "githubUrl": "https://github.com/bhushanmaheshwari/computer-vision"
     },
     {
       "image": "/depth-7-frame-2.png",
-      "title": "Project Gamma",
-      "desc": "A platform for online learning."
+      "title": "ai-agents",
+      "desc": "Autonomous systems designed to perform specific tasks or solve problems without constant human intervention.",
+      "githubUrl": "https://github.com/bhushanmaheshwari/ai-agents"
     },
     {
       "image": "/depth-7-frame-3.png",
-      "title": "Project Delta",
-      "desc": "A tool for data visualization."
+      "title": "personal-portfolio",
+      "desc": "A clean and modern NextJS + Tailwind personal profile page showcasing technical expertise and professional accomplishments.",
+      "githubUrl": "https://github.com/bhushanmaheshwari/personal-portfolio"
     },
     {
-      "image": "/depth-7-frame-4.png",
-      "title": "Project Epsilon",
-      "desc": "An app for personal finance management."
+      "image": "/depth-7-frame-0-8.png",
+      "title": "ai-langgraph",
+      "desc": "Advanced RAG implementation incorporating corrective, self, and adaptive feedback loops for enhanced GenAI user experience.",
+      "githubUrl": "https://github.com/bhushanmaheshwari/ai-langgraph"
     },
     {
       "image": "/depth-7-frame-5.png",
-      "title": "Project Zeta",
-      "desc": "A social networking platform."
+      "title": "langchain-chatwithfiles",
+      "desc": "OpenAI-powered conversational AI interface for seamless interaction with uploaded documents.",
+      "githubUrl": "https://github.com/bhushanmaheshwari/langchain-chatwithfiles"
+    },
+    {
+      "image": "/depth-7-frame-0-6.png",
+      "title": "express-mongodb",
+      "desc": "Generic API practice project using Express.js and MongoDB.",
+      "githubUrl": "https://github.com/bhushanmaheshwari/express-mongodb"
+    },
+    {
+      "image": "/depth-7-frame-0-7.png",
+      "title": "credit-card-validator",
+      "desc": "React-based application for managing wallet (credit and debit cards) using Firebase.",
+      "githubUrl": "https://github.com/bhushanmaheshwari/credit-card-validator"
     }
   ],
   "experience": [
@@ -285,7 +327,7 @@
     }
   ],
   "aboutMe": {
-    "desc": "I'm a UX designer with over 5 years of experience in creating user-friendly and visually appealing digital products. My expertise lies in user research, interaction design, and prototyping. I'm passionate about understanding user needs and translating them into effective design solutions. I've worked with a variety of clients, from startups to large corporations, and I'm always eager to take on new challenges.",
+    "desc": "With 13 years of designing and delivering business-driven, user-centered digital solutions, including extensive hands-on work in Generative AI, cloud platforms, and modern engineering practices, I am passionate about crafting product roadmaps, actively contributing to codebases, and mentoring engineers on responsible best practices and scalable design patterns. Over the years, I've worked across multicultural, multidisciplinary environments to co-create AI solutions, run hackathons, and lead innovation sprints that bridged business needs with emerging technologies. My goal is to shape and champion the journey of driving innovation while ensuring alignment with business goals, technical excellence, and responsible AI principles",
     "quote": "Great architecture isn't just scalable. It's thoughtful, ethical, and built for the people who use it."
   },
   "footer": {

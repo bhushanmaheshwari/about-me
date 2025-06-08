@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid meet">
+    <!-- Background -->
+    <rect width="1200" height="800" fill="#f8fafc"/>
+    
+    <!-- Title -->
+    <text x="600" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#1e293b">Enterprise AI Architecture</text>
+    
+    <!-- Main Components -->
+    <!-- Client Layer -->
+    <g transform="translate(50, 100)">
+        <rect width="1100" height="100" rx="10" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+        <text x="550" y="30" font-family="Arial" font-size="18" text-anchor="middle" fill="#1e293b">Client Applications</text>
+        <g transform="translate(50, 50)">
+            <rect width="200" height="40" rx="5" fill="#cbd5e1" stroke="#64748b"/>
+            <text x="100" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">Web Portal</text>
+        </g>
+        <g transform="translate(300, 50)">
+            <rect width="200" height="40" rx="5" fill="#cbd5e1" stroke="#64748b"/>
+            <text x="100" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">Mobile App</text>
+        </g>
+        <g transform="translate(550, 50)">
+            <rect width="200" height="40" rx="5" fill="#cbd5e1" stroke="#64748b"/>
+            <text x="100" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">Desktop Client</text>
+        </g>
+        <g transform="translate(800, 50)">
+            <rect width="200" height="40" rx="5" fill="#cbd5e1" stroke="#64748b"/>
+            <text x="100" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">API Gateway</text>
+        </g>
+    </g>
+
+    <!-- AI Services Layer -->
+    <g transform="translate(50, 250)">
+        <rect width="1100" height="150" rx="10" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+        <text x="550" y="30" font-family="Arial" font-size="18" text-anchor="middle" fill="#1e293b">AI Services Layer</text>
+        <g transform="translate(50, 50)">
+            <rect width="200" height="80" rx="5" fill="#bfdbfe" stroke="#3b82f6"/>
+            <text x="100" y="30" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">Document Intelligence</text>
+            <text x="100" y="55" font-family="Arial" font-size="12" text-anchor="middle" fill="#475569">LLM & RAG Pipeline</text>
+        </g>
+        <g transform="translate(300, 50)">
+            <rect width="200" height="80" rx="5" fill="#bfdbfe" stroke="#3b82f6"/>
+            <text x="100" y="30" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">Computer Vision</text>
+            <text x="100" y="55" font-family="Arial" font-size="12" text-anchor="middle" fill="#475569">Image Analysis</text>
+        </g>
+        <g transform="translate(550, 50)">
+            <rect width="200" height="80" rx="5" fill="#bfdbfe" stroke="#3b82f6"/>
+            <text x="100" y="30" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">NLP Services</text>
+            <text x="100" y="55" font-family="Arial" font-size="12" text-anchor="middle" fill="#475569">Text Processing</text>
+        </g>
+        <g transform="translate(800, 50)">
+            <rect width="200" height="80" rx="5" fill="#bfdbfe" stroke="#3b82f6"/>
+            <text x="100" y="30" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">ML Pipeline</text>
+            <text x="100" y="55" font-family="Arial" font-size="12" text-anchor="middle" fill="#475569">Model Training</text>
+        </g>
+    </g>
+
+    <!-- Cloud Infrastructure -->
+    <g transform="translate(50, 450)">
+        <rect width="1100" height="200" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+        <text x="550" y="30" font-family="Arial" font-size="18" text-anchor="middle" fill="#1e293b">Cloud Infrastructure</text>
+        
+        <!-- Azure Services -->
+        <g transform="translate(50, 50)">
+            <rect width="500" height="120" rx="5" fill="#dcfce7" stroke="#4ade80"/>
+            <text x="250" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#1e293b">Azure Cloud Services</text>
+            <g transform="translate(20, 50)">
+                <rect width="140" height="40" rx="5" fill="#bbf7d0" stroke="#22c55e"/>
+                <text x="70" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e293b">Azure Data Lake</text>
+            </g>
+            <g transform="translate(180, 50)">
+                <rect width="140" height="40" rx="5" fill="#bbf7d0" stroke="#22c55e"/>
+                <text x="70" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e293b">Azure Databricks</text>
+            </g>
+            <g transform="translate(340, 50)">
+                <rect width="140" height="40" rx="5" fill="#bbf7d0" stroke="#22c55e"/>
+                <text x="70" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e293b">Azure Functions</text>
+            </g>
+        </g>
+
+        <!-- Data Services -->
+        <g transform="translate(600, 50)">
+            <rect width="450" height="120" rx="5" fill="#dcfce7" stroke="#4ade80"/>
+            <text x="225" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#1e293b">Data Services</text>
+            <g transform="translate(20, 50)">
+                <rect width="130" height="40" rx="5" fill="#bbf7d0" stroke="#22c55e"/>
+                <text x="65" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e293b">MongoDB</text>
+            </g>
+            <g transform="translate(160, 50)">
+                <rect width="130" height="40" rx="5" fill="#bbf7d0" stroke="#22c55e"/>
+                <text x="65" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e293b">Redis Cache</text>
+            </g>
+            <g transform="translate(300, 50)">
+                <rect width="130" height="40" rx="5" fill="#bbf7d0" stroke="#22c55e"/>
+                <text x="65" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e293b">Elastic Search</text>
+            </g>
+        </g>
+    </g>
+
+    <!-- Security & Monitoring -->
+    <g transform="translate(50, 700)">
+        <rect width="1100" height="60" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+        <text x="550" y="30" font-family="Arial" font-size="18" text-anchor="middle" fill="#1e293b">Security & Monitoring</text>
+        <g transform="translate(50, 10)">
+            <rect width="200" height="40" rx="5" fill="#fee2e2" stroke="#f87171"/>
+            <text x="100" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">Azure Security</text>
+        </g>
+        <g transform="translate(300, 10)">
+            <rect width="200" height="40" rx="5" fill="#fee2e2" stroke="#f87171"/>
+            <text x="100" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">Application Insights</text>
+        </g>
+        <g transform="translate(550, 10)">
+            <rect width="200" height="40" rx="5" fill="#fee2e2" stroke="#f87171"/>
+            <text x="100" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">Log Analytics</text>
+        </g>
+        <g transform="translate(800, 10)">
+            <rect width="200" height="40" rx="5" fill="#fee2e2" stroke="#f87171"/>
+            <text x="100" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e293b">Performance Monitor</text>
+        </g>
+    </g>
+
+    <!-- Connection Lines -->
+    <g stroke="#94a3b8" stroke-width="2" fill="none">
+        <!-- Client to AI Services -->
+        <path d="M600,200 L600,250"/>
+        <!-- AI Services to Cloud -->
+        <path d="M600,400 L600,450"/>
+        <!-- Cloud to Security -->
+        <path d="M600,650 L600,700"/>
+    </g>
+</svg> 
