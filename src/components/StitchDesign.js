@@ -10,6 +10,8 @@ import Certifications from "./Certifications";
 import OnlineCourses from "./OnlineCourses";
 import AboutMe from "./AboutMe";
 import Footer from "./Footer";
+import SectionHeader from "./SectionHeader";
+
 
 export default function StitchDesign({ data }) {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -47,13 +49,16 @@ export default function StitchDesign({ data }) {
         </section>
 
         {/* Section 2: Projects */}
-        <section className="bg-white py-24">
+        <section className="bg-white py-12">
+      <SectionHeader title="GitHub Portfolio" />
+
           <SectionFadeIn className="mb-24"><GithubPortfolio data={data.githubPortfolio} /></SectionFadeIn>
           <SectionFadeIn className="mb-24"><FeaturedProjects data={data.featuredProjects} /></SectionFadeIn>
         </section>
 
         {/* Section 3: About and Experience */}
-        <section className="bg-gradient-to-b from-gray-50 to-white py-24">
+        <section className="bg-gradient-to-b from-gray-50 to-white py-12">
+          <SectionHeader title="Experience"/>
           <SectionFadeIn className="mb-24"><Experience data={data.experience} /></SectionFadeIn>
           <SectionFadeIn className="mb-24"><Certifications data={data.certifications} /></SectionFadeIn>
           <SectionFadeIn className="mb-24"><OnlineCourses data={data.onlineCourses} /></SectionFadeIn>

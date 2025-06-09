@@ -1,36 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import SectionHeader from "./SectionHeader";
 import "../styles/Experience.css";
 
 export default function Experience({ data }) {
-  const [isVisible, setIsVisible] = useState(false);
   const [activeIndex, setActiveIndex] = useState(null);
   const [visibleItems, setVisibleItems] = useState([]);
   const itemsRef = useRef([]);
-  const sectionRef = useRef(null);
-
-  // Initial section visibility
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
 
   // Scroll-based animations
   useEffect(() => {
@@ -50,7 +25,7 @@ export default function Experience({ data }) {
         });
       },
       {
-        threshold: 0.2,
+        threshold: 0.1,
         rootMargin: '-10% 0px -10% 0px'
       }
     );
@@ -67,8 +42,7 @@ export default function Experience({ data }) {
   }, [activeIndex]);
 
   return (
-    <section id="experience" ref={sectionRef} className="max-w-5xl mx-auto px-4 mb-8">
-      <SectionHeader title="Experience" isVisible={isVisible} />
+    <section id="experience" className="max-w-5xl mx-auto px-4 mb-8">
       <div className="relative">
         {/* Timeline line */}
         <div className="absolute left-1/2 transform -translate-x-1/2 w-px h-full bg-gray-200 hidden md:block" />

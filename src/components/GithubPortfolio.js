@@ -26,7 +26,6 @@ export default function GithubPortfolio({ data }) {
 
   return (
     <section id="github-portfolio" className="max-w-5xl mx-auto px-4 mb-8">
-      <SectionHeader title="GitHub Portfolio" isVisible={isVisible} />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {data.map((proj) => (
           <a
