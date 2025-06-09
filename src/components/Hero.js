@@ -35,7 +35,7 @@ export default function Hero({ data }) {
           priority
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/30 p-4 md:p-8 pt-24 md:pt-32">
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/55 p-4 md:p-8 pt-24 md:pt-32">
           <h1 className={`text-white font-extrabold text-4xl sm:text-5xl md:text-7xl text-center mb-4 md:mb-6 drop-shadow-lg ${isVisible ? 'fade-in' : ''}`}>
             {data.headline}
           </h1>
