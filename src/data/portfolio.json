@@ -62,7 +62,7 @@
     {
       "icon": "/icons/competencies/ai-ml.svg",
       "label": "Artificial Intelligence & Machine Learning",
-      "description": "Specialize in Generative AI, Conversational AI, NLP, RAG pipelines, and LLMs (OpenAI, Google Gemini) to enable AI-powered automation, personalization, and business transformation.",
+      "description": "Specialize in Agentic AI, Generative AI, Conversational AI, NLP, RAG pipelines, and LLMs (OpenAI, Google Gemini) to enable AI-powered automation, personalization, and business transformation.",
       "proficiency": 90,
       "color": "#47579E"
     },
@@ -129,9 +129,9 @@
     },
     {
       "image": "/diagrams/ai-portfolio.png",
-      "title": "AI @ WBG Portfolio",
-      "desc": "Comprehensive AI portfolio website with subscriptions, notifications, and community features.",
-      "technologies": ["Web Development", "AI", "Community Platform"]
+      "title": "Agentic AI Portfolio",
+      "desc": "Comprehensive AI architecture around Agentic AI capabilities for World Bank Group to enable AI-powered automation, personalization, and business transformation.",
+      "technologies": ["Web Development", "AI", "Agentic AI"]
     },
     {
       "image": "/diagrams/country-workspace.png",
@@ -217,6 +217,20 @@
     }
   ],
   "experience": [
+    {
+      "title": "AI Technologist (Development Assignment), WBG Corporate Solu>ons (ITSCO)",
+      "company": "The World Bank Group",
+      "location": "Washington DC, USA",
+      "year": "2025",
+      "skills": ["Agentic AI", "Claude", "ReactJS", "Python", "Data Engineering"],
+      "description": [
+        "Developed an agentic AI solution for the World Bank Group to enable AI-powered automation, personalization, and business transformation.",
+        "Designing and implementing GenAI and agentic AI solutions for corporate use cases across HR, Legal, ECR, and GCS workflows.",
+        "Implementing human-in-the-loop (HITL) validation and evaluation metrics (quality, cost-per-task, time-to-completion) to improve reliability and reduce errors in AI-generated outputs.",
+        "Applying AI governance and guardrails, including content filtering, red teaming, jailbreak/prompt-injection defenses, and ethical/privacy reviews aligned with WBG data governance and OIS standards."
+      ],
+      "icon": "/icons/experience/work.svg"
+    },
     {
       "title": "Lead Architect, AI/Automation, Country Engagement",
       "company": "The World Bank Group",
@@ -333,6 +347,36 @@
       "icon": "/Vector-12.svg",
       "title": "Neo4j Certified Professional",
       "type": "Graph RAG"
+    },
+    {
+      "icon": "/Vector-12.svg",
+      "title": "SAFe® Certified Lean Portfolio Management",
+      "type": "Agile"
+    },
+    {
+      "icon": "/Vector-12.svg",
+      "title": "SAFe® Certified Agile Project Management",
+      "type": "Agile"
+    },
+    {
+      "icon": "/Vector-12.svg",
+      "title": "SAFe® Certified for Architects",
+      "type": "Agile"
+    },
+    {
+      "icon": "/Vector-9.svg",
+      "title": "Microsoft Certified: Azure AI Engineer Associate",
+      "type": "AI Engineering"
+    },
+    {
+      "icon": "/Vector-12.svg",
+      "title": "SAFe® 6 Certified AI-Empowered Product Owner/Product Manager",
+      "type": "Agile"
+    },
+    {
+      "icon": "/Vector-3.svg",
+      "title": "Google Certified Generative AI Leader",
+      "type": "Generative AI"
     }
   ],
   "onlineCourses": [
@@ -346,7 +390,7 @@
     }
   ],
   "aboutMe": {
-    "desc": "With 13 years of designing and delivering business-driven, user-centered digital solutions, including extensive hands-on work in Generative AI, cloud platforms, and modern engineering practices, I am passionate about crafting product roadmaps, actively contributing to codebases, and mentoring engineers on responsible best practices and scalable design patterns. Over the years, I've worked across multicultural, multidisciplinary environments to co-create AI solutions, run hackathons, and lead innovation sprints that bridged business needs with emerging technologies. My goal is to shape and champion the journey of driving innovation while ensuring alignment with business goals, technical excellence, and responsible AI principles",
+    "desc": "With over 14 years of designing and delivering business-driven, user-centered digital solutions, including extensive hands-on work in Generative AI, cloud platforms, and modern engineering practices, I am passionate about crafting product roadmaps, actively contributing to codebases, and mentoring engineers on responsible best practices and scalable design patterns. Over the years, I've worked across multicultural, multidisciplinary environments to co-create AI solutions, run hackathons, and lead innovation sprints that bridged business needs with emerging technologies. My goal is to shape and champion the journey of driving innovation while ensuring alignment with business goals, technical excellence, and responsible AI principles",
     "quote": "Great architecture isn't just scalable. It's thoughtful, ethical, and built for the people who use it."
   },
   "footer": {
