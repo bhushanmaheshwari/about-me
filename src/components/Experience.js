@@ -86,7 +86,7 @@ export default function Experience({ data }) {
                       <span className={`text-sm font-medium text-gray-600 ${activeIndex === index ? 'text-gray-900' : ''}`}>
                         {item.company}
                       </span>
-                      <h3 className={`font-bold text-base md:text-lg transition-colors duration-700 ease-out ${activeIndex === index ? 'text-[#607af9]' : ''}`}>
+                      <h3 className={`font-bold text-base md:text-lg transition-colors duration-700 ease-out ${activeIndex === index ? 'text-[#607af9]' : 'text-gray-700'}`}>
                         {item.title}
                       </h3>
                     </div>

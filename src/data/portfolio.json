@@ -104,104 +104,112 @@
   ],
   "featuredProjects": [
     {
-      "image": "/diagrams/Depth-0-8.png",
+      "image": "/diagrams/issues-explorer.png",
       "title": "Issues Explorer",
-      "desc": "Architected a geospatial data visualization solution for risk and issue management using Google Maps, and Leaflet;, Azure Data Lake, and OpenAI, improving data accessibility and decision-making capabilities for global operations.",
+      "desc": "Geospatial data visualization for risk management using Google Maps, Azure Data Lake, and OpenAI.",
       "technologies": ["Google Maps", "Leaflet", "Azure Data Lake", "OpenAI"]
     },
     {
-      "image": "/diagrams/Depth-0-4.png",
+      "image": "/diagrams/gen-ai-solutions.png",
       "title": "Generative AI Solutions",
-      "desc": "Led the design and implementation of a generative AI solution to automate content creation across WBG documents, enhancing efficiency and consistency in documentation workflows.",
+      "desc": "AI-powered content automation across WBG documents for enhanced efficiency and consistency.",
       "technologies": ["Generative AI", "Azure", "Document Processing"]
     },
     {
-      "image": "/diagrams/Depth-0-6.png",
+      "image": "/diagrams/doc-review-tool.png",
       "title": "Document Review Tool",
-      "desc": "Developed an AI-powered tool using Angular, Azure Data Bricks, and ChatGPT models to analyze and compare document attributes, achieving a 40% reduction in document review times.",
+      "desc": "AI tool using Angular and ChatGPT for document analysis, reducing review times by 40%.",
       "technologies": ["Angular", "Azure Data Bricks", "ChatGPT", "AI"]
     },
     {
-      "image": "/diagrams/Depth-0-2.png",
+      "image": "/diagrams/data-engineering.png",
       "title": "Data Engineering Platform",
-      "desc": "Built a scalable data processing platform on Azure Data Bricks, Service Bus, and Python, supporting document generation and enhancing data-driven decision-making for business teams.",
+      "desc": "Scalable data processing platform on Azure supporting document generation and analytics.",
       "technologies": ["Azure Data Bricks", "Service Bus", "Python", "Data Engineering"]
     },
     {
-      "image": "/diagrams/Depth-0-5.png",
+      "image": "/diagrams/ai-portfolio.png",
       "title": "AI @ WBG Portfolio",
-      "desc": "Created a comprehensive AI portfolio website showcasing AI products, frameworks, resources, with features like subscriptions, notifications, and community engagement, fostering cross-team collaboration and knowledge sharing.",
+      "desc": "Comprehensive AI portfolio website with subscriptions, notifications, and community features.",
       "technologies": ["Web Development", "AI", "Community Platform"]
     },
     {
-      "image": "/diagrams/Depth-0-9.png",
+      "image": "/diagrams/country-workspace.png",
       "title": "Country Workspace",
-      "desc": "Architected a collaborative workspace for Country Management Units, incorporating data analytics, geospatial capabilities, and AI-driven document generation, increasing team productivity by 30%.",
+      "desc": "Collaborative workspace with analytics, geospatial tools, and AI-driven content generation.",
       "technologies": ["Data Analytics", "Geospatial", "AI", "Collaboration"]
     },
     {
-      "image": "/diagrams/Depth-0-7.png",
+      "image": "/diagrams/intranet-apps.png",
       "title": "Intranet Apps",
-      "desc": "Designed and implemented an intranet platform to promote transparency and collaboration using Angular, Azure Search, and Power BI, reducing information retrieval times by 25%.",
+      "desc": "Transparency platform using Angular, Azure Search, and Power BI reducing retrieval times by 25%.",
       "technologies": ["Angular", "Azure Search", "Power BI"]
     },
     {
-      "image": "/diagrams/Depth-0-1.png",
+      "image": "/diagrams/global-mobility-portal.png",
       "title": "Global Mobility Portal",
-      "desc": "Partnered with HR to architect a global mobility solution leveraging SharePoint and Azure Cloud, streamlining workflows and cutting processing times by 20%.",
+      "desc": "HR mobility solution with SharePoint and Azure Cloud, cutting processing times by 20%.",
       "technologies": ["SharePoint", "Azure Cloud", "HR Solutions"]
     },
     {
-      "image": "/diagrams/Depth-0-3.png",
+      "image": "/diagrams/remote-supervision.png",
       "title": "Remote Supervision",
-      "desc": "Delivered an integrated project management tool for operational staff using Angular and Azure, enhancing project visibility and collaboration across the organization.",
+      "desc": "Project management tool using Angular and Azure for enhanced visibility and collaboration.",
       "technologies": ["Angular", "Azure", "Project Management"]
     }
   ],
   "githubPortfolio": [
     {
+      "order": 7,
       "image": "/depth-7-frame-0.png",
       "title": "markdown",
       "desc": "A markup language implementation for adding formatting to plain text documents with various examples and scenarios.",
       "githubUrl": "https://github.com/bhushanmaheshwari/markdown"
     },
     {
+      "order": 6,
       "image": "/depth-7-frame-1.png",
       "title": "computer-vision",
       "desc": "Work in progress project for image analysis, generating detailed descriptions including tags, object detection, and face detection.",
       "githubUrl": "https://github.com/bhushanmaheshwari/computer-vision"
     },
     {
+      "order": 2,
       "image": "/depth-7-frame-2.png",
       "title": "ai-agents",
       "desc": "Autonomous systems designed to perform specific tasks or solve problems without constant human intervention.",
       "githubUrl": "https://github.com/bhushanmaheshwari/ai-agents"
     },
     {
+      "order": 1,
       "image": "/depth-7-frame-3.png",
       "title": "personal-portfolio",
       "desc": "A clean and modern NextJS + Tailwind personal profile page showcasing technical expertise and professional accomplishments.",
       "githubUrl": "https://github.com/bhushanmaheshwari/personal-portfolio"
     },
     {
+      "order": 3,
       "image": "/depth-7-frame-0-8.png",
       "title": "ai-langgraph",
       "desc": "Advanced RAG implementation incorporating corrective, self, and adaptive feedback loops for enhanced GenAI user experience.",
       "githubUrl": "https://github.com/bhushanmaheshwari/ai-langgraph"
     },
     {
+      "order": 5,
       "image": "/depth-7-frame-5.png",
       "title": "langchain-chatwithfiles",
       "desc": "OpenAI-powered conversational AI interface for seamless interaction with uploaded documents.",
       "githubUrl": "https://github.com/bhushanmaheshwari/langchain-chatwithfiles"
     },
     {
+      "order": 4,
       "image": "/depth-7-frame-0-6.png",
-      "title": "express-mongodb",
-      "desc": "Generic API practice project using Express.js and MongoDB.",
-      "githubUrl": "https://github.com/bhushanmaheshwari/express-mongodb"
+      "title": "ai-report-generation",
+      "desc": "A powerful, AI-driven application that generates comprehensive AI reports on any topic.",
+      "githubUrl": "https://github.com/bhushanmaheshwari/ai-report-generation"
     },
     {
+      "order": 8,
       "image": "/depth-7-frame-0-7.png",
       "title": "credit-card-validator",
       "desc": "React-based application for managing wallet (credit and debit cards) using Firebase.",
@@ -287,8 +295,14 @@
     },
     {
       "icon": "/Vector-13.svg",
-      "title": "Bachelors in Computer Science",
+      "title": "Bachelors in Computer Science Engineering",
       "type": "India, 2007-2011"
+    },
+    {
+      
+      "icon": "/icons/databricks-svgrepo-com.svg",
+      "title": "Databricks Certified Generative AI Engineer Associate",
+      "type": "Generative AI"
     },
     {
       "icon": "/Vector-9.svg",

@@ -44,7 +44,7 @@ export default function Certifications({ data }) {
 
   return (
     <section id="certifications" className="max-w-5xl mx-auto px-4 mb-8">
-      <h2 className={`font-bold text-xl md:text-2xl mb-8 text-center transition-all duration-1000 ease-out transform ${
+      <h2 className={`font-bold text-gray-700 text-xl md:text-2xl mb-8 text-center transition-all duration-1000 ease-out transform ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
       }`}>
         Education & Certifications

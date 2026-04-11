@@ -24,13 +24,17 @@ export default function GithubPortfolio({ data }) {
     };
   }, []);
 
+  // Sort projects by order property
+  const sortedData = [...data].sort((a, b) => (a.order || 0) - (b.order || 0));
+
   return (
     <section id="github-portfolio" className="max-w-5xl mx-auto px-4 mb-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {data.map((proj) => (
+        {sortedData.map((proj) => (
           <a
             key={proj.title}
-            href="javascript:;"
+            href={proj.githubUrl}
+            target="_blank"
             rel="noopener noreferrer"
             className={`bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col h-48 hover:border-[#607af9] hover:shadow-md transition-all duration-300 stagger-animation ${isVisible ? 'fade-in' : ''}`}
           >

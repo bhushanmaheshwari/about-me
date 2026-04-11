@@ -21,7 +21,7 @@ export default function Navbar({ data, heroData }) {
       <div className="max-w-5xl mx-auto flex items-center justify-between px-4 py-3">
         <div className="flex items-center gap-2">
           <Image src={data.logo} alt="Logo" width={24} height={24} className="w-5 h-5 sm:w-6 sm:h-6" />
-          <span className="font-semibold text-base sm:text-lg">{data.title}</span>
+          <span className="font-semibold text-gray-700 text-base sm:text-lg">{data.title}</span>
         </div>
         
         {/* Mobile menu button */}
@@ -50,13 +50,13 @@ export default function Navbar({ data, heroData }) {
               {link.label}
             </a>
           ))}
-          <a
+          {/*<a
             href="/resume.pdf"
             download
             className="bg-gray-100 text-gray-900 font-semibold rounded-lg px-4 py-2 text-sm hover:bg-gray-200 transition-colors duration-200"
           >
             {data.resume}
-          </a>
+          </a>*/}
         </div>
 
         {/* Mobile menu */}
@@ -119,7 +119,7 @@ export default function Navbar({ data, heroData }) {
                 </div>
               </div>
 
-              {/* Resume Button */}
+              {/* Resume Button 
               <div className="mt-8 pt-6 border-t border-gray-200">
                 <a
                   href="/resume.pdf"
@@ -130,6 +130,7 @@ export default function Navbar({ data, heroData }) {
                   {data.resume}
                 </a>
               </div>
+              */}
             </div>
           </div>
         </div>
